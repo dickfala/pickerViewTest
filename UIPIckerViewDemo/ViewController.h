@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UIPickerViewDataSource,UIGestureRecognizerDelegate>
+@property (weak, nonatomic) IBOutlet UITextField *myTF;
+
 
 @end
